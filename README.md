@@ -18,7 +18,5 @@ Data Preparation:
 5)convert to TF-IDF representation.
 
 
-
-
-
+Built The  Model: The SMS data have now been prepared for building a classifier. Split the TF-IDF data into training and testing sets. Then we use the training data to fit a Logistic Regression model and finally evaluate the performance of that model on the testing data. The classifier won't be fooled by spam SMS with 95 % accuracy
 
