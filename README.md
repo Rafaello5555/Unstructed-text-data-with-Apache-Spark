@@ -9,4 +9,16 @@ text — content of SMS message
 
 label — spam or ham (integer; 0 = ham and 1 = spam)
 
+Data Preparation
+ First, we  need to prepare the SMS messages as follows:
+1)remove punctuation and numbers
+2)tokenize (split into individual words)
+3)remove stop words
+4)apply the hashing trick
+5)convert to TF-IDF representation.
+
+
+
+
+
 
