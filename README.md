@@ -9,7 +9,7 @@ text — content of SMS message
 
 label — spam or ham (integer; 0 = ham and 1 = spam)
 
-Data Preparation
+Data Preparation:
  First, we  need to prepare the SMS messages as follows:
 1)remove punctuation and numbers
 2)tokenize (split into individual words)
