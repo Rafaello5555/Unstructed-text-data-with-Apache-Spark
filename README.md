@@ -1,2 +1,12 @@
 # Unstructed-text-data-with-Apache-Spark
-Build Logistic regression model to classify if the message is spam 1 or ham 0 . The data contains 5574 records.
+The file sms.csv contains a selection of SMS messages which have been classified as either 'spam' or 'ham'. There are a total of 5574 SMS, of which 747 have been labelled as spam.
+
+Data dictionary:
+
+id — record identifier
+
+text — content of SMS message
+
+label — spam or ham (integer; 0 = ham and 1 = spam)
+
+
